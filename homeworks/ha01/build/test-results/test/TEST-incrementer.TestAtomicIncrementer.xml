@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="incrementer.TestAtomicIncrementer" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-05-08T08:29:12" hostname="Adrians-MBP-2" time="0.039">
+  <properties/>
+  <testcase name="testGetAndIncrement()" classname="incrementer.TestAtomicIncrementer" time="0.006"/>
+  <testcase name="testIncrement()" classname="incrementer.TestAtomicIncrementer" time="0.009"/>
+  <testcase name="testIncrementAndGet()" classname="incrementer.TestAtomicIncrementer" time="0.003"/>
+  <testcase name="testIncrementBy()" classname="incrementer.TestAtomicIncrementer" time="0.007"/>
+  <testcase name="testResetValue()" classname="incrementer.TestAtomicIncrementer" time="0.005"/>
+  <testcase name="testSetValue()" classname="incrementer.TestAtomicIncrementer" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
