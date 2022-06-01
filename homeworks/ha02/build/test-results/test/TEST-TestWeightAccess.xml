@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestWeightAccess" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-05-29T17:30:16" hostname="Adrians-MacBook-Pro-2.local" time="0.037">
+  <properties/>
+  <testcase name="testEveryWeightUsed()" classname="TestWeightAccess" time="0.008"/>
+  <testcase name="testEveryWeightUsedCorrectAmountLenient()" classname="TestWeightAccess" time="0.012"/>
+  <testcase name="testEveryWeightUsedCorrectAmountStrict()" classname="TestWeightAccess" time="0.005"/>
+  <testcase name="testExclusiveAccess()" classname="TestWeightAccess" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
