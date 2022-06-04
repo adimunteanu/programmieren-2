@@ -4,23 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae4c8622-bd19-4888-bcd5-10b8c8390a96" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../ha01/.gradle/7.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../ha01/.gradle/7.4/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ha01/.gradle/7.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../ha01/.gradle/7.4/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ha01/.gradle/7.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../ha01/.gradle/7.4/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ha01/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../ha01/.gradle/7.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ha01/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../ha01/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ha01/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/../ha01/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ha01/build/reports/tests/test/classes/incrementer.TestAtomicIncrementer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ha01/build/reports/tests/test/classes/readandsort.TestReadAndSort.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ha01/build/reports/tests/test/classes/readandsort.TestReadAndSort.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ha01/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ha01/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ha01/build/reports/tests/test/packages/incrementer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ha01/build/reports/tests/test/packages/readandsort.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ha01/build/reports/tests/test/packages/readandsort.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ha01/build/test-results/test/TEST-incrementer.TestAtomicIncrementer.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ha01/build/test-results/test/TEST-readandsort.TestReadAndSort.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ha01/build/test-results/test/TEST-readandsort.TestReadAndSort.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ha01/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../ha01/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ha01/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../ha01/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
-    </list>
+    <list default="true" id="ae4c8622-bd19-4888-bcd5-10b8c8390a96" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -174,6 +158,7 @@
       <workItem from="1653040059232" duration="1735000" />
       <workItem from="1653118718572" duration="13466000" />
       <workItem from="1653806697123" duration="1090000" />
+      <workItem from="1654072176865" duration="23000" />
     </task>
     <servers />
   </component>
