@@ -1,0 +1,17 @@
+[
+  { "name" : "TU Berlin", "courses": [
+    "INFORMATION_TECHNOLOGY",
+    "ELECTRICAL_ENGINEERING",
+    "AEROSPACE_ENGINEERING",
+    "BUSINESS_INFORMATICS"
+  ] },
+  { "name" : "HU Berlin", "courses": [
+    "HUMAN_MEDICINE",
+    "EUROPEAN_LAW",
+    "MUSIC"
+  ] },
+  { "name" : "FU Berlin", "courses": [
+    "POLITICAL_SCIENCE",
+    "ENVIRONMENTAL_SCIENCE"
+  ] }
+]

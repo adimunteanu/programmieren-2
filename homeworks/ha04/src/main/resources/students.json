@@ -1,0 +1,126 @@
+[
+  { "name": "Max", "country": "DE", "results": [
+    { "name": "INFORMATION_TECHNOLOGY", "grade": 3.0 },
+    { "name": "ENVIRONMENTAL_SCIENCE", "grade": 4.3 }],
+    "supervisors": [
+      "Axel", "Peter", "Tobias"
+    ]
+  },
+  { "name": "Jan", "country": "SE", "results": [
+    { "name": "HUMAN_MEDICINE", "grade": 1.0 },
+    { "name": "EUROPEAN_LAW", "grade": 2.0 }],
+    "supervisors": [
+      "Peter", "Tom"
+    ]
+  },
+  { "name": "Lena", "country": "GB", "results": [
+    { "name": "HUMAN_MEDICINE", "grade": 1.0 }],
+    "supervisors": [
+      "Philip", "Tom"
+    ]
+  },
+  { "name": "Felix", "country": "FR", "results": [
+    { "name": "BUSINESS_INFORMATICS", "grade": 1.3 }],
+    "supervisors": [
+      "Axel", "Philip", "Sebastian"
+    ]
+  },
+  { "name": "Maria", "country": "DE", "results": [
+    { "name": "EUROPEAN_LAW", "grade": 2.7 },
+    { "name": "POLITICAL_SCIENCE", "grade": 4.0 },
+    { "name": "INFORMATION_TECHNOLOGY", "grade": 1.0 }],
+    "supervisors": [
+      "Peter", "Sandro", "Tom"
+    ]
+  },
+  { "name": "Ben", "country": "FR", "results": [
+    { "name": "POLITICAL_SCIENCE", "grade": 3.0 },
+    { "name": "ELECTRICAL_ENGINEERING", "grade": 1.7 },
+    { "name": "MUSIC", "grade": 1.3 },
+    { "name": "INFORMATION_TECHNOLOGY", "grade": 1.3 }],
+    "supervisors": [
+      "Axel"
+    ]
+  },
+  { "name": "Thuy-Vy", "country": "GB", "results": [
+    { "name": "INFORMATION_TECHNOLOGY", "grade": 2.0 },
+    { "name": "ENVIRONMENTAL_SCIENCE", "grade": 2.3 }],
+    "supervisors": [
+      "Axel", "Tom"
+    ]
+  },
+  { "name": "Pablo", "country": "DE", "results": [
+    { "name": "MUSIC", "grade": 1.0 },
+    { "name": "ENVIRONMENTAL_SCIENCE", "grade": 2.3 },
+    { "name": "INFORMATION_TECHNOLOGY", "grade": 3.3 }],
+    "supervisors": [
+      "Peter", "Philip", "Axel"
+    ]
+  },
+  { "name": "Anna", "country": "DE", "results": [
+    { "name": "MUSIC", "grade": 1.7 }],
+    "supervisors": [
+      "Tobias", "Axel"
+    ]
+  },
+  { "name": "Lisa", "country": "DE", "results": [
+    { "name": "ELECTRICAL_ENGINEERING", "grade": 3.0 },
+    { "name": "EUROPEAN_LAW", "grade": 4.3 },
+    { "name": "MUSIC", "grade": 4.3 },
+    { "name": "INFORMATION_TECHNOLOGY", "grade": 4.3 }],
+    "supervisors": [
+      "Tom", "Sandro"
+    ]
+  },
+  { "name": "Sanjeet", "country": "DE", "results": [
+    { "name": "BUSINESS_INFORMATICS", "grade": 3.0 },
+    { "name": "AEROSPACE_ENGINEERING", "grade": 4.3 }],
+    "supervisors": [
+      "Sandro"
+    ]
+  },
+  { "name": "Lin", "country": "FR", "results": [
+    { "name": "HUMAN_MEDICINE", "grade": 3.0 },
+    { "name": "INFORMATION_TECHNOLOGY", "grade": 4.3 },
+    { "name": "ENVIRONMENTAL_SCIENCE", "grade": 4.3 }],
+    "supervisors": [
+      "Tobias"
+    ]
+  },
+  { "name": "Elisa", "country": "GB", "results": [
+    { "name": "EUROPEAN_LAW", "grade": 3.0 },
+    { "name": "AEROSPACE_ENGINEERING", "grade": 4.3 }],
+    "supervisors": [
+      "Axel", "Philip"
+    ]
+  },
+  { "name": "Adrian", "country": "DE", "results": [
+    { "name": "INFORMATION_TECHNOLOGY", "grade": 3.0 },
+    { "name": "ELECTRICAL_ENGINEERING", "grade": 4.3 },
+    { "name": "MUSIC", "grade": 4.3 }],
+    "supervisors": [
+      "Peter", "Tom"
+    ]
+  },
+  { "name": "Jenny", "country": "SE", "results": [
+    { "name": "POLITICAL_SCIENCE", "grade": 3.0 }],
+    "supervisors": [
+      "Sebastian"
+    ]
+  },
+  { "name": "Tetyana", "country": "FR", "results": [
+    { "name": "ELECTRICAL_ENGINEERING", "grade": 3.0 }],
+    "supervisors": [
+      "Sandro", "Tom"
+    ]
+  },
+  { "name": "Willi", "country": "DE", "results": [
+    { "name": "ELECTRICAL_ENGINEERING", "grade": 3.0 },
+    { "name": "BUSINESS_INFORMATICS", "grade": 4.3 },
+    { "name": "HUMAN_MEDICINE", "grade": 4.3 },
+    { "name": "EUROPEAN_LAW", "grade": 4.3 }],
+    "supervisors": [
+      "Axel", "Peter", "Sandro"
+    ]
+  }
+]

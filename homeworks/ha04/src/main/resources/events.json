@@ -1,0 +1,19 @@
+[
+  { "name": "Prog1 Vorlesung", "isLecture": true, "participants": 400, "duration": 90 },
+  { "name": "Prog2 Vorlesung", "isLecture": true, "participants": 350, "duration": 90 },
+  { "name": "WebTech Vorlesung", "isLecture": true, "participants": 600, "duration": 90 },
+  { "name": "Gepro Vorlesung", "isLecture": true, "participants": 300, "duration": 120 },
+  { "name": "Prog1 Tut1", "isLecture": false, "participants": 32, "duration": 90 },
+  { "name": "Prog1 Tut2", "isLecture": false, "participants": 45, "duration": 90 },
+  { "name": "Prog1 Tut3", "isLecture": false, "participants": 30, "duration": 90 },
+  { "name": "Prog2 Tut1", "isLecture": false, "participants": 20, "duration": 90 },
+  { "name": "Prog2 Tut2", "isLecture": false, "participants": 24, "duration": 90 },
+  { "name": "Prog2 Tut3", "isLecture": false, "participants": 10, "duration": 90 },
+  { "name": "WebTech Tut1", "isLecture": false, "participants": 28, "duration": 90 },
+  { "name": "WebTech Tut2", "isLecture": false, "participants": 30, "duration": 90 },
+  { "name": "WebTech Tut3", "isLecture": false, "participants": 38, "duration": 90 },
+  { "name": "WebTech Tut4", "isLecture": false, "participants": 24, "duration": 90 },
+  { "name": "WebTech Sprechstunde", "isLecture": false, "participants": 20, "duration": 180 },
+  { "name": "Gepro Tut1", "isLecture": false, "participants": 35, "duration": 120 },
+  { "name": "Gepro Tut2", "isLecture": false, "participants": 25, "duration": 120 }
+]
