@@ -2,11 +2,13 @@ package impl.events;
 
 import util.Event;
 
+import java.util.Comparator;
 import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * ERGÄNZEN SIE IN DEN UNTENSTEHENDEN STREAM-PIPELINES DIE FEHLENDEN LAMBDA-AUSRÜCKE.
- *
+ * <p>
  * VERÄNDERN SIE SONST NICHTS AN DER VORGABE!
  */
 public class UniversityEvents {
@@ -16,15 +18,14 @@ public class UniversityEvents {
      * Finden Sie die Namen aller Vorlesungen.
      *
      * @param events List of events including their name, type, number of participants, and duration.
-     *
      * @return List of names of all events that are lectures, ordered alphabetically.
      */
     public static List<String> getLectureNames(List<Event> events) {
         return events.stream()
-                .filter() //TODO: get lecture events
-                .sorted() //TODO: sort alphabetically
-                .map() //TODO: map to event name
-                .toList();
+                .filter(Event::isLecture)
+                .sorted(Comparator.comparing(Event::getName))
+                .map(Event::getName)
+                .collect(Collectors.toList());
     }
 
     /**
@@ -32,18 +33,17 @@ public class UniversityEvents {
      * Finden Sie die durschnittliche Teilnehmerzahl aller Tutorien (= Veranstaltungen, die keine Vorlesungen sind).
      *
      * @param events List of events including their name, type, number of participants, and duration.
-     *
      * @return The average (mean) number of participants of events that are not lectures.
      */
     public static double averageTutorialStudentCount(List<Event> events) {
         long tutorialCount = events.stream()
-                .filter() //TODO: get non-lecture events
+                .filter(event -> !event.isLecture())
                 .count();
 
         return events.stream()
-                .filter() //TODO: get non-lecture events
-                .map() //TODO: map to participant count
-                .reduce() //TODO: add up the participant counts
+                .filter(event -> !event.isLecture())
+                .map(Event::getParticipants)
+                .reduce(0, (a, b) -> a + b)
                 .doubleValue() / tutorialCount;
     }
 
@@ -52,14 +52,13 @@ public class UniversityEvents {
      * Finden Sie den Namen des Tutoriums mit den meisten Teilnehmern.
      *
      * @param events List of events including their name, type, number of participants, and duration.
-     *
      * @return The name of the non-lecture event that has the highest number of participants.
      */
     public static String mostPopularTutorial(List<Event> events) {
         return events.stream()
-                .filter() //TODO: get non-lecture events
-                .max() //TODO: find highest tutorial with participant count
-                .map() //TODO: map to event name
+                .filter(event -> !event.isLecture())
+                .max(Comparator.comparingInt(Event::getParticipants))
+                .map(Event::getName)
                 .orElse(null);
     }
 }
