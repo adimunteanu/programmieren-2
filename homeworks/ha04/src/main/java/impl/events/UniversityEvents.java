@@ -25,7 +25,7 @@ public class UniversityEvents {
                 .filter(Event::isLecture)
                 .sorted(Comparator.comparing(Event::getName))
                 .map(Event::getName)
-                .collect(Collectors.toList());
+                .toList();
     }
 
     /**
