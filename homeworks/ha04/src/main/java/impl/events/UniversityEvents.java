@@ -2,9 +2,7 @@ package impl.events;
 
 import util.Event;
 
-import java.util.Comparator;
 import java.util.List;
-import java.util.stream.Collectors;
 
 /**
  * ERGÄNZEN SIE IN DEN UNTENSTEHENDEN STREAM-PIPELINES DIE FEHLENDEN LAMBDA-AUSRÜCKE.
@@ -23,7 +21,7 @@ public class UniversityEvents {
     public static List<String> getLectureNames(List<Event> events) {
         return events.stream()
                 .filter(Event::isLecture)
-                .sorted(Comparator.comparing(Event::getName))
+                .sorted((e1, e2) -> e1.getName().compareTo(e2.getName()))
                 .map(Event::getName)
                 .toList();
     }
@@ -57,7 +55,7 @@ public class UniversityEvents {
     public static String mostPopularTutorial(List<Event> events) {
         return events.stream()
                 .filter(event -> !event.isLecture())
-                .max(Comparator.comparingInt(Event::getParticipants))
+                .max((e1, e2) -> Integer.compare(e1.getParticipants(), e2.getParticipants()))
                 .map(Event::getName)
                 .orElse(null);
     }
