@@ -1,6 +1,6 @@
 package impl
 
-import components.traits.{MethodHolder, PathHolder, StatusHolder}
+import components.traits.{ContentHolder, HeaderHolder, MethodHolder, PathHolder, StatusHolder}
 import util.Method.Method
 
 /**
@@ -23,4 +23,9 @@ class HttpResponse(
                     override val host: String,
                     override val status: Int,
                     override val contentLength: Int
-                  ) extends HttpMessage(id, reqResId, rawHeaders, host) with StatusHolder {}
+                  ) extends HttpMessage(id, reqResId, rawHeaders, host)
+  with StatusHolder
+  with ContentHolder
+  with HeaderHolder {
+  override val headers: Map[String, String] = HeaderHolder.parseHeaders(rawHeaders)
+}

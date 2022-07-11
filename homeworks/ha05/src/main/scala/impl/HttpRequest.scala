@@ -1,6 +1,6 @@
 package impl
 
-import components.traits.{MethodHolder, PathHolder}
+import components.traits.{ContentHolder, HeaderHolder, MethodHolder, PathHolder}
 import util.Method
 import util.Method.Method
 
@@ -26,4 +26,10 @@ class HttpRequest(
                    override val method: Method,
                    override val path: String,
                    override val contentLength: Int
-                 ) extends HttpMessage(id, reqResId, rawHeaders, host) with MethodHolder with PathHolder {}
+                 ) extends HttpMessage(id, reqResId, rawHeaders, host)
+  with MethodHolder
+  with PathHolder
+  with ContentHolder
+  with HeaderHolder {
+  override val headers: Map[String, String] = HeaderHolder.parseHeaders(rawHeaders)
+}

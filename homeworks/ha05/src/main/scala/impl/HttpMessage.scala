@@ -18,9 +18,7 @@ import util.Method.Method
  * @param rawHeaders Raw JSON string representing the headers of the HttpMessage.
  * @param host       Hostname of the server this HttpMessage was exchanged with.
  */
-abstract class HttpMessage(val id: Int, val reqResId: Int, val rawHeaders: String, val host: String) extends ContentHolder with HeaderHolder {
-  override val headers: Map[String, String] = HeaderHolder.parseHeaders(rawHeaders)
-}
+abstract class HttpMessage(val id: Int, val reqResId: Int, val rawHeaders: String, val host: String)
 
 object HttpMessage {
   def apply(line: List[String]): HttpMessage = {

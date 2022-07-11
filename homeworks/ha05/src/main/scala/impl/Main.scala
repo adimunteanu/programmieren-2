@@ -1,6 +1,6 @@
 package impl
 
-import components.traits.{HeaderHolder, MethodHolder}
+import components.traits.{ContentHolder, HeaderHolder, MethodHolder}
 import util.{Data, Method}
 import util.Method.{GET, Method}
 
@@ -136,7 +136,7 @@ object Main {
    */
   def findMostCommonHeader(messages: List[HttpMessage]): Option[String] = {
     Option(messages
-      .flatMap(message => message.headers.toList)
+      .flatMap(message => message.asInstanceOf[HeaderHolder].headers.toList)
       .groupBy(tuple => tuple._1)
       .map(headersMap => (headersMap._1, headersMap._2.length))
       .maxBy(headersMap => headersMap._2)
@@ -155,7 +155,7 @@ object Main {
    */
   def countEachHeader(messages: List[HttpMessage]): Option[List[(String, Int)]] = {
     Option(messages
-      .flatMap(message => message.headers.toList)
+      .flatMap(message => message.asInstanceOf[HeaderHolder].headers.toList)
       .groupBy(tuple => tuple._1)
       .map(headersMap => (headersMap._1, headersMap._2.length))
       .toList
@@ -174,7 +174,7 @@ object Main {
   def calculateAverageResponseContentLength(messages: List[HttpMessage]): Option[Double] = {
     Option(messages
       .filter(message => message.isInstanceOf[HttpResponse])
-      .map(message => message.contentLength)
+      .map(message => message.asInstanceOf[ContentHolder].contentLength)
       .sum.toDouble
       /
       messages.count(message => message.isInstanceOf[HttpResponse]).toDouble
@@ -193,7 +193,7 @@ object Main {
   def calculateTotalResponseContentLength(messages: List[HttpMessage]): Option[Int] = {
     Option(messages
       .filter(message => message.isInstanceOf[HttpResponse])
-      .map(message => message.contentLength)
+      .map(message => message.asInstanceOf[ContentHolder].contentLength)
       .sum
     )
   }
