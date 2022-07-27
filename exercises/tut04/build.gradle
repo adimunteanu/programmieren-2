@@ -1,0 +1,31 @@
+plugins {
+    id 'scala'
+}
+
+sourceSets {
+    main {
+        scala {
+            srcDirs = ['src/main/scala']
+        }
+    }
+    test {
+        scala {
+            srcDirs = ['test/scala']
+        }
+    }
+}
+
+
+group 'snet.prog2'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.scala-lang:scala-library:2.13.8'
+    testImplementation 'org.scalatest:scalatest_2.11:3.2.12'
+    testImplementation 'junit:junit:4.13.2'
+    testImplementation 'org.scala-lang:scala-library:2.13.8'
+}
